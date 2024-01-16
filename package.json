@@ -22,5 +22,9 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "resolutions": {
+    "mlly@npm:^1.2.0": "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch",
+    "mlly@npm:^1.4.2": "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch"
+  }
 }

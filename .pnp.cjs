@@ -2419,7 +2419,7 @@ const RAW_RUNTIME_STATE =
           ["h3", "npm:1.9.0"],\
           ["http-shutdown", "npm:1.2.2"],\
           ["jiti", "npm:1.21.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["node-forge", "npm:1.3.1"],\
           ["pathe", "npm:1.1.1"],\
           ["std-env", "npm:3.7.0"],\
@@ -3079,7 +3079,7 @@ const RAW_RUNTIME_STATE =
           ["dotenv", "npm:16.3.1"],\
           ["giget", "npm:1.2.1"],\
           ["jiti", "npm:1.21.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["ohash", "npm:1.1.3"],\
           ["pathe", "npm:1.1.1"],\
           ["perfect-debounce", "npm:1.0.0"],\
@@ -5146,7 +5146,7 @@ const RAW_RUNTIME_STATE =
           ["h3", "npm:1.9.0"],\
           ["http-shutdown", "npm:1.2.2"],\
           ["jiti", "npm:1.21.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["node-forge", "npm:1.3.1"],\
           ["pathe", "npm:1.1.1"],\
           ["std-env", "npm:3.7.0"],\
@@ -5162,7 +5162,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/local-pkg-npm-0.5.0-c126c7ec8b-f61cbd00d7.zip/node_modules/local-pkg/",\
         "packageDependencies": [\
           ["local-pkg", "npm:0.5.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["pkg-types", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
@@ -5476,12 +5476,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mlly", [\
-      ["npm:1.4.2", {\
-        "packageLocation": "./.yarn/cache/mlly-npm-1.4.2-75e10242a0-905e3a704c.zip/node_modules/mlly/",\
+      ["patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787", {\
+        "packageLocation": "./.yarn/cache/mlly-patch-59cb347e7e-0eb6adcc8d.zip/node_modules/mlly/",\
         "packageDependencies": [\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["acorn", "npm:8.11.3"],\
-          ["pathe", "npm:1.1.1"],\
+          ["pathe", "npm:1.1.2"],\
           ["pkg-types", "npm:1.0.3"],\
           ["ufo", "npm:1.3.2"]\
         ],\
@@ -5609,7 +5609,7 @@ const RAW_RUNTIME_STATE =
           ["listhen", "npm:1.5.5"],\
           ["magic-string", "npm:0.30.5"],\
           ["mime", "npm:3.0.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["mri", "npm:1.2.0"],\
           ["node-fetch-native", "npm:1.6.1"],\
           ["ofetch", "npm:1.3.3"],\
@@ -6050,6 +6050,13 @@ const RAW_RUNTIME_STATE =
           ["pathe", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.1.2", {\
+        "packageLocation": "./.yarn/cache/pathe-npm-1.1.2-b80d94db55-64ee0a4e58.zip/node_modules/pathe/",\
+        "packageDependencies": [\
+          ["pathe", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["pb2", [\
@@ -6105,7 +6112,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["pkg-types", "npm:1.0.3"],\
           ["jsonc-parser", "npm:3.2.0"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["pathe", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
@@ -7348,7 +7355,7 @@ const RAW_RUNTIME_STATE =
           ["fast-glob", "npm:3.3.2"],\
           ["local-pkg", "npm:0.5.0"],\
           ["magic-string", "npm:0.30.5"],\
-          ["mlly", "npm:1.4.2"],\
+          ["mlly", "patch:mlly@npm%3A1.5.0#~/.yarn/patches/mlly-npm-1.5.0-dc7923db5f.patch::version=1.5.0&hash=f0e787"],\
           ["pathe", "npm:1.1.1"],\
           ["pkg-types", "npm:1.0.3"],\
           ["scule", "npm:1.1.1"],\
