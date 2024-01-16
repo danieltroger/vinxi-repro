@@ -6340,8 +6340,8 @@ __metadata:
   linkType: hard
 
 "vinxi@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "vinxi@npm:0.1.1"
+  version: 0.1.4
+  resolution: "vinxi@npm:0.1.4"
   dependencies:
     "@babel/core": "npm:^7.22.11"
     "@babel/plugin-syntax-jsx": "npm:^7.22.5"
@@ -6366,6 +6366,7 @@ __metadata:
     h3: "npm:1.9.0"
     hookable: "npm:^5.5.3"
     http-proxy: "npm:^1.18.1"
+    iron-webcrypto: "npm:^1.0.0"
     micromatch: "npm:^4.0.5"
     mri: "npm:^1.2.0"
     nitropack: "npm:2.8.1"
@@ -6379,6 +6380,7 @@ __metadata:
     serve-placeholder: "npm:^2.0.1"
     serve-static: "npm:^1.15.0"
     ufo: "npm:^1.3.0"
+    uncrypto: "npm:^0.1.3"
     unenv: "npm:^1.7.4"
     unimport: "npm:^3.2.0"
     unstorage: "npm:^1.9.0"
@@ -6387,7 +6389,7 @@ __metadata:
     zod: "npm:^3.22.2"
   bin:
     vinxi: bin/cli.mjs
-  checksum: eb73900c9fcf655bdbf0ae684898b9a635d55f8f3d0026b2fd49152b6c32897610817d10646556a471a61ac3151c8701b95abcf83e8f452ffcc063806ad9b10a
+  checksum: 7e0de4a81c8a9f00a9f88731cd69ab58742d81cb86be51bb480a3a0aa256f1726f043f8142aeecdf14500e92ea9dedc2ab8df740a532aa45f76245fabe17f2f7
   languageName: node
   linkType: hard
 
